@@ -56,7 +56,8 @@ body{
     padding: 1em;
 }
 
-.left h4{
+.left h1{
+    font-size: 1em;
     padding: 1em;
     text-align: center;
     color: var(--light-lavender);
