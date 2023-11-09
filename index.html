@@ -13,8 +13,8 @@
   <title>Frontend Mentor | Componente de Resultados</title>
 </head>
 <body>
-  <div class="container">
-    <div class="left">
+  <div class="container" role="main">
+    <div class="left" role="banner">
       <h4>Seu resultado</h4>
       <div class="score-left">
         <span class="big-score">76</span>
@@ -26,11 +26,11 @@
       </div>
     </div>
     <div class="right">
-      <h4>Resumo</h4>
-      <div class="scores">
+      <h4 role="columnheader">Resumo</h4>
+      <div class="scores" role="tree">
         <div class="score" style="color: hsl(0, 100%, 67%); background-color: hsla(0, 100%, 67%, 0.1);">
           <div class="score-title">
-            <img src="images/icon-reaction.svg">
+            <img src="images/icon-reaction.svg" alt="Reação">
             <span>Reação</span>
           </div>
           <span class="boldscore">80 /<span class="lightscore">100</span>
@@ -38,7 +38,7 @@
         </div>
         <div class="score" style="color: hsl(39, 100%, 56%); background-color: hsla(39, 100%, 56%, 0.1);">
           <div class="score-title">
-            <img src="images/icon-memory.svg">
+            <img src="images/icon-memory.svg" alt="Memória">
             <span>Memória</span>
           </div>
           <span class="boldscore">92 /<span class="lightscore">100</span>
@@ -46,7 +46,7 @@
         </div>
         <div class="score" style="color: hsl(166, 100%, 37%); background-color: hsla(166, 100%, 37%, 0.1);">
           <div class="score-title">
-            <img src="images/icon-verbal.svg">
+            <img src="images/icon-verbal.svg" alt="Verbal">
             <span>Verbal</span>
           </div>
           <span class="boldscore">61 /<span class="lightscore">100</span>
@@ -54,7 +54,7 @@
         </div>
         <div class="score" style="color: hsl(234, 85%, 45%); background-color: hsla(234, 85%, 45%, 0.1);">
           <div class="score-title">
-            <img src="images/icon-visual.svg">
+            <img src="images/icon-visual.svg" alt="Visual">
             <span>Visual</span>
           </div>
           <span class="boldscore">72 /<span class="lightscore">100</span>
