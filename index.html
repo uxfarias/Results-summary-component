@@ -1,64 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Vinicius Rodrigues de Farias">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="description" content="Frontend Mentor | Result Summary Component">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Componente de Resultados</title>
 </head>
 <body>
   <div class="container">
     <div class="left">
-      <h4>Your Result</h4>
+      <h4>Seu resultado</h4>
       <div class="score-left">
         <span class="big-score">76</span>
-        <span class="small-score">of 100</span>
+        <span class="small-score">/ 100</span>
       </div>
       <div class="left-text">
-        <h3>Great</h3>
-        <p>You scored higher than 65% of the people who have taken these tests.</p>
+        <h3>Ótimo</h3>
+        <p>Você obteve pontuação superior a 65% das pessoas que fizeram esses testes.</p>
       </div>
     </div>
     <div class="right">
-      <h4>Summary</h4>
+      <h4>Resumo</h4>
       <div class="scores">
-        <div class="score-reaction">
-          <div class="score-com">
-            <img src="./assets/images/icon-reaction.svg">
-            <span>Reaction</span>
+        <div class="score" style="color: hsl(0, 100%, 67%); background-color: hsla(0, 100%, 67%, 0.1);">
+          <div class="score-title">
+            <img src="images/icon-reaction.svg">
+            <span>Reação</span>
           </div>
-          <span class="black-text">80 /<span class="grey">100</span>
+          <span class="boldscore">80 /<span class="lightscore">100</span>
           </span>
         </div>
-        <div class="score-memory">
-          <div class="score-com">
-            <img src="./assets/images/icon-memory.svg">
-            <span>Memory</span>
+        <div class="score" style="color: hsl(39, 100%, 56%); background-color: hsla(39, 100%, 56%, 0.1);">
+          <div class="score-title">
+            <img src="images/icon-memory.svg">
+            <span>Memória</span>
           </div>
-          <span class="black-text">92 /<span class="grey">100</span>
+          <span class="boldscore">92 /<span class="lightscore">100</span>
           </span>
         </div>
-        <div class="score-verbal">
-          <div class="score-com">
-            <img src="./assets/images/icon-verbal.svg">
+        <div class="score" style="color: hsl(166, 100%, 37%); background-color: hsla(166, 100%, 37%, 0.1);">
+          <div class="score-title">
+            <img src="images/icon-verbal.svg">
             <span>Verbal</span>
           </div>
-          <span class="black-text">61 /<span class="grey">100</span>
+          <span class="boldscore">61 /<span class="lightscore">100</span>
           </span>
         </div>
-        <div class="score-visual">
-          <div class="score-com">
-            <img src="./assets/images/icon-visual.svg">
+        <div class="score" style="color: hsl(234, 85%, 45%); background-color: hsla(234, 85%, 45%, 0.1);">
+          <div class="score-title">
+            <img src="images/icon-visual.svg">
             <span>Visual</span>
           </div>
-          <span class="black-text">72 /<span class="grey">100</span>
+          <span class="boldscore">72 /<span class="lightscore">100</span>
           </span>
         </div>
       </div>
-    <button>Continue</button>
+    <button>Continuar</button>
     </div>
   </div>
 </body>
